@@ -1,0 +1,33 @@
+<style>
+    /* Customize the appearance of the meter */
+    meter {
+      width: 100%;
+      height: 20px;
+      background-color: #f0f0f0;
+      border-radius: 5px;
+    }
+    
+    /* Customize the appearance of the meter value */
+    meter::-webkit-meter-bar {
+      background-color: #f0f0f0;
+      border-radius: 5px;
+    }
+    
+    meter::-webkit-meter-optimum-value {
+      background-color: green;
+      border-radius: 5px;
+    }
+    
+    meter::-webkit-meter-suboptimum-value {
+      background-color: yellow;
+      border-radius: 5px;
+    }
+    
+    meter::-webkit-meter-even-less-good-value {
+      background-color: red;
+      border-radius: 5px;
+    }
+  </style>
+  
+  <meter value="75" min="0" max="100">75%</meter>
+  
